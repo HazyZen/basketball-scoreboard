@@ -1,8 +1,55 @@
 body {
     margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: url(nature-background.jpg);
+    background-size: cover;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#score-el {
+    font-size: 50px;
+    margin: 20px 0;
+    color: red;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
+    border: 3px dashed white;
+    width: 40%;
+    margin: 80px auto;
+    padding: 0;
+    min-width: 370px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 50px;
+    border: 3px black solid;
+    border-radius: 10px;
+    background-color: rgb(255, 196, 46);
+    font-weight: 700;
+}
+
+#btn-1, #btn-2, #btn-3, #save-btn {
+    opacity: 0.6;
+}
+
+#btn-1:hover, #btn-2:hover, #btn-3:hover, #save-btn:hover {
+    opacity: 1;
+}
+
+#save-btn {
+    background-color: green;
+}
+
+#save-el {
+    font-size: 25px;
+    color: white;
 }
