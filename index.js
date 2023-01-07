@@ -1,5 +1,6 @@
 let homeScore = document.getElementById('home-score')
 let guestScore = document.getElementById('guest-score')
+let scoreBackground = document.getElementById('score-bg')
 let hScore = 0
 let gScore = 0
 
@@ -16,6 +17,7 @@ function hAddTwo() {
 function hAddThree() {
     hScore += 3
     homeScore.textContent = hScore
+    
 }
 
 function gAddOne() {
@@ -32,3 +34,9 @@ function gAddThree() {
     gScore += 3
     guestScore.textContent = gScore
 }
+
+/*if (homeScore.textContent.length > 2) {
+    homeScore.style.fontSize = "80px"
+} else {
+    homeScore.style.fontSize = "90px"
+}*/
